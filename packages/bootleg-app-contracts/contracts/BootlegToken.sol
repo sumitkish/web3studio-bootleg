@@ -20,7 +20,7 @@ contract BootlegToken is ERC721MetadataMintable, BookendSharedRoyaltyToken, ERC7
   {} // solium-disable-line no-empty-blocks
 
   /**
-   * @notice Allow the minter to add franchisors. Used for assigning more than one initial position
+   * @notice Allow the minter to add franchisors and other legal rights holders. Used for assigning more than one initial position
    * @param franchisor address The new franchisor address
    * @param tokenId uint256 ID of the token that ownership is being passed to
    */
